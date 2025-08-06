@@ -20,3 +20,24 @@
     </div>
   </template>
   
+  <script setup>
+import { ref, computed, onMounted } from 'vue'
+import { usePokemonStore } from '../store/pokemonStore'
+import PokemonCard from './PokemonCard.vue'
+
+const store = usePokemonStore()
+
+const searchQuery = ref('')
+
+const loading = computed(() => store.loading)
+
+const filteredList = computed(() => {
+  return store.list.filter(p =>
+    p.name.toLowerCase().includes(searchQuery.value.toLowerCase())
+  )
+})
+
+onMounted(() => {
+  store.fetchPokemonList()
+})
+</script>

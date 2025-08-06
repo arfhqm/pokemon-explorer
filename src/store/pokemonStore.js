@@ -74,7 +74,7 @@ export const usePokemonStore = defineStore('pokemon', {
         }
       }
     
-      // 🔐 Save edited data to localStorage
+      // Save edited data to localStorage
       localStorage.setItem(`pokemon-${this.selected.name}`, JSON.stringify(updatedData))
     }    
   }
