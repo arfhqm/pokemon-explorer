@@ -1,30 +1,63 @@
-# pokemon-explorer
+# Pokémon Explorer App
 
-This template should help get you started developing with Vue 3 in Vite.
+A responsive Vue 3 web app that displays a list of Pokémon using data from the [PokeAPI](https://pokeapi.co/). Users can search, view detailed Pokémon info, and even edit the Pokémon's stored info using Pinia.
 
-## Recommended IDE Setup
+## 🚀 Live Demo
+[🔗 View Deployed App on Netlify/GitHub Pages](https://your-live-link.com)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+## 🧰 Tech Stack
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- **Vue 3**
+- **JavaScript**
+- **Bootstrap 5.3**
+- **Pinia (State Management)**
+- **Axios (API Fetching)**
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+## 📦 Features
 
-### Compile and Hot-Reload for Development
+- ✅ Fetch and display 100 Pokémon from the PokeAPI
+- ✅ Responsive grid layout using Bootstrap 5
+- ✅ Search bar for filtering Pokémon by name
+- ✅ Detail page with extended info (stats, abilities, types, etc.)
+- ✅ UI loader for async API calls
+- ✅ State management with Pinia
+- ✅ Edit Pokémon info and persist in store
+- ✅ Responsive mobile-first design
+- ✅ Bonus: Data visualizations using charts
 
-```sh
-npm run dev
-```
+---
 
-### Compile and Minify for Production
+## 📸 UI Mockups & UX Flow
 
-```sh
-npm run build
-```
-# pokemon-explorer
+You can find the UI/UX wireframes and mockups in the `mockups/` folder:
+
+- Home Page Layout (Grid of Pokémon)
+- Detail Page Layout
+- Edit Modal/Page
+- Responsive mobile layout
+
+> Mockups created with Figma / Excalidraw / Pen & Paper
+
+---
+
+## 📊 Data Visualizations
+
+We use [Chart.js](https://www.chartjs.org/) or [Vue-chartjs](https://vue-chartjs.org/) to display:
+
+- Base Stats (HP, Attack, Defense, etc.) as Radar Chart
+- Type Distribution (e.g., pie chart showing how many Fire, Water, etc.)
+
+These graphs are included on the detail page for visual engagement.
+
+---
+
+## 🔧 Installation & Running Locally
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/your-username/pokemon-app.git
+cd pokemon-app
