@@ -1,7 +1,5 @@
 <template>
   <div class="container my-4">
-    <h1 class="mb-4">Pokémon Explorer</h1>
-
     <input type="text" class="form-control mb-3" placeholder="Search Pokémon"
            v-model="searchQuery" />
 
