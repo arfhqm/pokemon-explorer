@@ -3,7 +3,7 @@
 A responsive Vue 3 web app that displays a list of Pokémon using data from the [PokeAPI](https://pokeapi.co/). Users can search, view detailed Pokémon info, and even edit the Pokémon's stored info using Pinia.
 
 ## 🚀 Live Demo
-[🔗 View Deployed App on Netlify/GitHub Pages](https://your-live-link.com)
+[🔗 View Deployed App on Netlify/GitHub Pages](https://arfhqm.github.io/pokemon-explorer/)
 
 ---
 
