@@ -1,0 +1,66 @@
+@import './base.css';
+
+/* Mobile-first layout */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f6fc;
+  color: #333;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Global link styling */
+a,
+.green {
+  text-decoration: none;
+  color: #2b7a78;
+  transition: 0.3s ease;
+}
+
+a:hover {
+  background-color: rgba(43, 122, 120, 0.1);
+  border-radius: 4px;
+}
+
+.spinner-border {
+  width: 3rem;
+  height: 3rem;
+}
+
+/* Responsive grid for Pokémon cards */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 576px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #app {
+    padding: 2rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
+}
