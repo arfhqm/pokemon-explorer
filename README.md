@@ -1,4 +1,4 @@
-# Pokémon Explorer App
+# Pokémon Explorer
 
 A responsive Vue 3 web app that displays a list of Pokémon using data from the [PokeAPI](https://pokeapi.co/). Users can search, view detailed Pokémon info, and even edit the Pokémon's stored info using Pinia.
 
@@ -27,37 +27,11 @@ A responsive Vue 3 web app that displays a list of Pokémon using data from the 
 - ✅ State management with Pinia
 - ✅ Edit Pokémon info and persist in store
 - ✅ Responsive mobile-first design
-- ✅ Bonus: Data visualizations using charts
-
----
-
-## 📸 UI Mockups & UX Flow
-
-You can find the UI/UX wireframes and mockups in the `mockups/` folder:
-
-- Home Page Layout (Grid of Pokémon)
-- Detail Page Layout
-- Edit Modal/Page
-- Responsive mobile layout
-
-> Mockups created with Figma / Excalidraw / Pen & Paper
-
----
-
-## 📊 Data Visualizations
-
-We use [Chart.js](https://www.chartjs.org/) or [Vue-chartjs](https://vue-chartjs.org/) to display:
-
-- Base Stats (HP, Attack, Defense, etc.) as Radar Chart
-- Type Distribution (e.g., pie chart showing how many Fire, Water, etc.)
-
-These graphs are included on the detail page for visual engagement.
-
 ---
 
 ## 🔧 Installation & Running Locally
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/pokemon-app.git
+git clone https://github.com/your-username/pokemon-explorer.git
 cd pokemon-app
