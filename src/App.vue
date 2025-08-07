@@ -26,7 +26,7 @@ import { RouterLink, RouterView } from 'vue-router'
   </main>
 </template>
 
-<style scoped>
+<style>
 .logo {
   width: 48px;
   height: 48px;
