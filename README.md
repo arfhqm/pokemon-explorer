@@ -33,5 +33,5 @@ A responsive Vue 3 web app that displays a list of Pokémon using data from the 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/your-username/pokemon-explorer.git
+git clone https://github.com/arfhqm/pokemon-explorer.git
 cd pokemon-explorer
